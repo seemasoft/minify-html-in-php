@@ -1,6 +1,6 @@
 # Minify HTML in PHP
 
-![Icon](https://github.com/seemasoft/minify-html-in-php/blob/main/icon.png)
+![Icon](https://github.com/seemasoft/minify-html-in-php/blob/master/icon.png)
 
 Minify HTML in PHP is a Visual Studio Code extension designed to automatically optimize HTML files and HTML code embedded within PHP files. This efficient tool removes unused spaces, tabs, and comments, effectively reducing file sizes without impacting the integrity of your PHP code.
 
