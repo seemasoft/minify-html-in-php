@@ -1,0 +1,50 @@
+{
+  "name": "minify-html-in-php",
+  "displayName": "Minify HTML in PHP",
+  "description": "Minify HTML in PHP is a Visual Studio Code extension designed to automatically optimize HTML files and HTML code embedded within PHP files. This efficient tool removes unused spaces, tabs, and comments, effectively reducing file sizes without impacting the integrity of your PHP code.",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "minify-html-in-php.MinifyHtmlInPhp",
+        "title": "Minify HTML in PHP"
+      }
+    ],
+    "keybindings": [
+        {
+            "command": "minify-html-in-php.MinifyHtmlInPhp",
+            "key": "ctrl+alt+M",
+            "mac": "cmd+shift+M"
+        }
+      ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.84.0",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-electron": "^2.3.6"
+  }
+}
