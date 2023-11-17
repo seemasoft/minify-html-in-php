@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "minify-html-in-php" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to the "Minify HTML in PHP" extension will be documented in this file.
 
 ## [Unreleased]
 
-- Initial release
+- ...
+
+## [1.0.0] - YYYY-MM-DD
+
+- Initial release.
